@@ -1,0 +1,70 @@
+/*colors 
+COLOR PALETTE
+
+Dark green    #3c8453
+Sandy beige   #bcaa96
+Dark gray     #222222
+Light gray    #d3d4d6
+Off-white     #f6f6f6
+*/
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  html,body{
+    height: 100%;
+
+  }
+  .content-wrapper{
+    margin: 0 auto;
+    max-width: 900 px;
+    /* text-align: center;  */
+    
+  }
+  
+body{
+    background:  #f6f6f6;
+    margin: 0;
+}
+a{
+    color: #3c8453;
+    }
+ a:hover{
+    color:bisque;
+ }   
+.home{
+    background: url(../images/bg-home-office-studio.jpg) no-repeat;
+    background-size: cover;
+}
+.home.content-wrapper{
+   background: rgb(255 255 255/0.9);
+}
+.resume header{
+    background:url(../images/bg-home-office-studio.jpg) center;
+    background-size: cover;
+    content:"" ;
+    display: block;
+    height: 375px;
+
+}
+footer{
+    background: #222;
+    color: blue;
+    padding: 10px;
+    bottom: 0;
+    position: fixed; 
+    width: 100%;
+}
+.socials{
+    list-style-type: none;
+    padding: 0;
+}
+.socials li{
+    display:inline-block;
+}
+.socials img{
+    width: 32px;
+
+}
